@@ -1,19 +1,15 @@
   name: BDC
-  version: 0.0
+  version: "0.0"
 
 source:
-  git_rev:
-  git_url:
+  path: ../src
 
 requirements:
   build:
     - python
-    - setuptools
 
   run:
     - python
-    - pandas
-    - numpy
 
 test:
   imports:
